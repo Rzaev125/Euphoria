@@ -25,10 +25,71 @@ nav {
 }
 
 main {
-    background: url('../../images/Banner.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
+    
+
+    #slider {
+        background: url('../../images/Banner.jpg') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-bottom: 150px;
+
+        h1 {
+            font-size: calc(15px + 5vw);
+        }
+          
+        h3 {
+            font-size: calc(5px + 2vw);
+        }
+
+        #mainText {
+
+            button {
+                padding: calc(2px + 2vh) calc(2px + 3vw);
+                font-size: 1vw;
+            }
+            
+        }
+    }
+
+    #InfoBlock {
+        margin-bottom: 100px;
+
+        hr {
+            width: 8.8vw;
+        }
+
+        h1 {
+            font-size: calc(1px + 2vw);
+        }
+
+        h2 {
+            font-size: calc(1px + 1.3vw);
+        }
+          
+        h3 {
+            font-size: calc(1px + 1vw);
+        }
+
+        #firstBlock {
+            background: url('../../images/FirstBlock.jpg') no-repeat;
+            -webkit-background-size: 100%;
+            -o-background-size: 100%;
+            -moz-background-size: 100%;
+            -ms-background-size: 100%;
+            -khtml-background-size: 100%;
+            background-size: 100% 100%;
+        }
+
+        #secondBlock {
+            background: url('../../images/SecondBlock.jpg') no-repeat;
+            -webkit-background-size: 100%;
+            -o-background-size: 100%;
+            -moz-background-size: 100%;
+            -ms-background-size: 100%;
+            -khtml-background-size: 100%;
+            background-size: 100% 100%;
+        }
+    }
 }

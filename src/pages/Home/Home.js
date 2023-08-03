@@ -37,22 +37,43 @@ function Home() {
             </nav>
 
             <main>
-                <div className='flex flex-cols'>
+                <div id={style.slider} className='flex flex-cols'>
                     <div className='flex items-center'>
-                        <svg width="100" height="100" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.6668 5L7.25604 9.41074C6.9306 9.73618 6.9306 10.2638 7.25604 10.5893L11.6668 15" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
-                        </svg>
+                        <button>
+                            <svg width="100" height="100" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.6668 5L7.25604 9.41074C6.9306 9.73618 6.9306 10.2638 7.25604 10.5893L11.6668 15" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+                            </svg>
+                        </button>
                     </div>
-                    <div className='text-white px-32 py-32 w-screen'>
+                    <div id={style.mainText} className='text-white px-32 py-32 w-screen'>
                         <h3 className='mb-12'>T-shirt / Tops</h3>
                         <h1><b>Summer <br /> Value Pack</b></h1>
                         <h3 className='mt-12'>cool / colorful / comfy</h3>
-                        <button className='mt-12 px-16 py-4 text-black rounded bg-white'><b>Shop Now</b></button>
+                        <button className='mt-12 text-black rounded bg-white'><b>Shop Now</b></button>
                     </div>
                     <div className='flex items-center'>
-                        <svg width="100" height="100" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8.33325 5L12.744 9.41074C13.0694 9.73618 13.0694 10.2638 12.744 10.5893L8.33325 15" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
-                        </svg>
+                        <button>
+                            <svg width="100" height="100" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.33325 5L12.744 9.41074C13.0694 9.73618 13.0694 10.2638 12.744 10.5893L8.33325 15" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div id={style.InfoBlock} className='flex justify-center text-white'>
+                    <div id={style.firstBlock} className='w-2/5 mr-10 rounded-xl px-8 py-14'>
+                        <h3 className='mb-12'><b>Low Price</b></h3>
+                        <h1 className='mb-2'><b>High Coziness</b></h1>
+                        <h3 className='mb-12'>UPTO 50% OFF</h3>
+                        <h2><b>Explore Items</b></h2>
+                        <hr className='mb-12' />
+                    </div>
+                    <div id={style.secondBlock} className='w-2/5 rounded-xl -mt-2 -mb-3 px-10 py-14'>
+                        <h3 className='mb-8'><b>Beyoung Presents</b></h3>
+                        <h1 className='mb-2'><b>Breezy Summer <br /> Style</b></h1>
+                        <h3 className='mb-10'>UPTO 50% OFF</h3>
+                        <h2><b>Explore Items</b></h2>
+                        <hr className='mb-12' />
                     </div>
                 </div>
             </main>
