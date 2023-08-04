@@ -60,20 +60,71 @@ function Home() {
                     </div>
                 </div>
 
-                <div id={style.InfoBlock} className='flex justify-center text-white'>
-                    <div id={style.firstBlock} className='w-2/5 mr-10 rounded-xl px-8 py-14'>
-                        <h3 className='mb-12'><b>Low Price</b></h3>
-                        <h1 className='mb-2'><b>High Coziness</b></h1>
-                        <h3 className='mb-12'>UPTO 50% OFF</h3>
-                        <h2><b>Explore Items</b></h2>
-                        <hr className='mb-12' />
+                <div className={style.container}>
+                    <div id={style.InfoBlock} className='flex text-white'>
+                        <div id={style.firstBlock} className='w-1/2 mr-10 rounded-xl px-8 py-14'>
+                            <h3 className='mb-12'><b>Low Price</b></h3>
+                            <h1 className='mb-2'><b>High Coziness</b></h1>
+                            <h3 className='mb-12'>UPTO 50% OFF</h3>
+                            <h2><b>Explore Items</b></h2>
+                            <hr className='mb-12' />
+                        </div>
+                        <div id={style.secondBlock} className='w-1/2 rounded-xl -mt-2 -mb-3 px-10 py-14'>
+                            <h3 className='mb-8'><b>Beyoung Presents</b></h3>
+                            <h1 className='mb-2'><b>Breezy Summer <br /> Style</b></h1>
+                            <h3 className='mb-10'>UPTO 50% OFF</h3>
+                            <h2><b>Explore Items</b></h2>
+                            <hr className='mb-12' />
+                        </div>
                     </div>
-                    <div id={style.secondBlock} className='w-2/5 rounded-xl -mt-2 -mb-3 px-10 py-14'>
-                        <h3 className='mb-8'><b>Beyoung Presents</b></h3>
-                        <h1 className='mb-2'><b>Breezy Summer <br /> Style</b></h1>
-                        <h3 className='mb-10'>UPTO 50% OFF</h3>
-                        <h2><b>Explore Items</b></h2>
-                        <hr className='mb-12' />
+
+                    <div className={style.title}>
+                        <svg width="6" height="30" viewBox="0 0 6 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="6" height="30" rx="3" fill="#8A33FD"/>
+                        </svg>
+                        <p className='mb-10 ml-2'><b>New Arrival</b></p>
+                    </div>
+
+                    <div id={style.Arrival} className='flex'>
+                        <div className="flex items-center mr-4">
+                            <button>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.8335 10H5.00012M9.16679 5L4.75604 9.41074C4.4306 9.73618 4.4306 10.2638 4.75604 10.5893L9.16679 15" stroke="#3C4242" strokeWidth="1.5" strokeLinecap="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div id={style.arrivalContent} className='w-full flex'>
+                            <div className='w-1/4'>
+                                <div id={style.firstArrival} className='mb-8'></div>
+                                <b><p className='ml-2'>Knitted Joggers</p></b>
+                            </div>
+                            <div className='w-1/4'>
+                                <div id={style.secondArrival} className='mb-8'></div>
+                                <b><p className='ml-2'>Full Sleeve</p></b>
+                            </div>
+                            <div className='w-1/4'>
+                                <div id={style.thirdArrival} className='mb-8'></div>
+                                <b><p className='ml-2'>Active T-Shirts</p></b>
+                            </div>
+                            <div className='w-1/4'>
+                                <div id={style.fourthArrival} className='mb-8'></div>
+                                <b><p className='ml-2'>Urban Shirts</p></b>
+                            </div>
+                        </div>
+                        <div className='flex items-center'>
+                            <button>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.16675 10H15.0001M10.8334 5L15.2442 9.41074C15.5696 9.73618 15.5696 10.2638 15.2442 10.5893L10.8334 15" stroke="#3C4242" strokeWidth="1.5" strokeLinecap="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className={style.title}>
+                        <svg width="6" height="30" viewBox="0 0 6 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="6" height="30" rx="3" fill="#8A33FD"/>
+                        </svg>
+                        <p className='mb-10 ml-2'><b>Big Saving Zone</b></p>
                     </div>
                 </div>
             </main>
