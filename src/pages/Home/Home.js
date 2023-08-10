@@ -95,19 +95,19 @@ function Home() {
                         </div>
                         <div id={style.arrivalContent} className='w-full flex'>
                             <div className='w-1/4'>
-                                <div id={style.firstArrival} className='mb-8'></div>
+                                <div id={style.firstArrival}></div>
                                 <b><p className='ml-2'>Knitted Joggers</p></b>
                             </div>
                             <div className='w-1/4'>
-                                <div id={style.secondArrival} className='mb-8'></div>
+                                <div id={style.secondArrival}></div>
                                 <b><p className='ml-2'>Full Sleeve</p></b>
                             </div>
                             <div className='w-1/4'>
-                                <div id={style.thirdArrival} className='mb-8'></div>
+                                <div id={style.thirdArrival}></div>
                                 <b><p className='ml-2'>Active T-Shirts</p></b>
                             </div>
                             <div className='w-1/4'>
-                                <div id={style.fourthArrival} className='mb-8'></div>
+                                <div id={style.fourthArrival}></div>
                                 <b><p className='ml-2'>Urban Shirts</p></b>
                             </div>
                         </div>
