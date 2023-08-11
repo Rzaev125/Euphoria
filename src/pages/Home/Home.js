@@ -93,21 +93,21 @@ function Home() {
                                 </svg>
                             </button>
                         </div>
-                        <div id={style.arrivalContent} className='w-full flex'>
-                            <div className='w-1/4'>
-                                <div id={style.firstArrival}></div>
+                        <div id={style.arrivalContent} className='w-full grid grid-cols-4'>
+                            <div className=''>
+                                <div className={style.backImage} id={style.firstArrival}></div>
                                 <b><p className='ml-2'>Knitted Joggers</p></b>
                             </div>
-                            <div className='w-1/4'>
-                                <div id={style.secondArrival}></div>
+                            <div className=''>
+                                <div className={style.backImage} id={style.secondArrival}></div>
                                 <b><p className='ml-2'>Full Sleeve</p></b>
                             </div>
-                            <div className='w-1/4'>
-                                <div id={style.thirdArrival}></div>
+                            <div className=''>
+                                <div className={style.backImage} id={style.thirdArrival}></div>
                                 <b><p className='ml-2'>Active T-Shirts</p></b>
                             </div>
-                            <div className='w-1/4'>
-                                <div id={style.fourthArrival}></div>
+                            <div className=''>
+                                <div className={style.backImage} id={style.fourthArrival}></div>
                                 <b><p className='ml-2'>Urban Shirts</p></b>
                             </div>
                         </div>
